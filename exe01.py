@@ -1,5 +1,8 @@
-#Felipe Bortoluzzi dos Santos
-#16 anos
-#Gosto de Jogar jogos, ler livros e esportes, como volei e futsal
-#Diagnosticado com autismo aos 10 anos de idade
-#Eu amo a aula de zumba mas amo mesmo a de programassão de aplicativo
+x = 34 - 23
+y = "Hello"
+z = 3.45
+if z == 3.45 or y == "Hello":
+    x = x + 1
+    y = y + " World"
+print(x)
+print(y)
