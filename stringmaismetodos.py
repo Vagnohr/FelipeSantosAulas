@@ -41,3 +41,8 @@ print(nome.replace("l","I"), "\n")
 #separa o texto string baseado em algum caractere indicado
 nome = "Felipe @ Nicoli Souza"
 print(nome.split("@"), "\n")
+
+
+#coloca todas as letras iniciais em maiuscula
+nome = "felipe bortoluzzi dos santos"
+print(nome.title(),"\n")
