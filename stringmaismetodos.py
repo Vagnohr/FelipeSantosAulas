@@ -26,3 +26,18 @@ print(nome.find("@"), "\n")
 #verifica se o texto é todo feito com letras
 nome = "Felipe"
 print(nome.isalpha(), "\n")
+
+
+#verifica se o texto é feito com numeros
+nome = "123"
+print(nome.isnumeric(), "\n")
+
+
+#substitui um caractere escolhido por outro
+nome = "Felipe"
+print(nome.replace("l","I"), "\n")
+
+
+#separa o texto string baseado em algum caractere indicado
+nome = "Felipe @ Nicoli Souza"
+print(nome.split("@"), "\n")
