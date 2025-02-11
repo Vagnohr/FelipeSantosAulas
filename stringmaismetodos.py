@@ -21,3 +21,8 @@ print(nome.endswith("gmail.com"), "\n")
 #encontra a posicção do termo procurado. lembre-se começa do zero
 nome = "felipebtst1@gmail.com"
 print(nome.find("@"), "\n")
+
+
+#verifica se o texto é todo feito com letras
+nome = "Felipe"
+print(nome.isalpha(), "\n")
