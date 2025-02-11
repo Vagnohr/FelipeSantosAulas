@@ -22,3 +22,9 @@ faturamento = 2000
 custo = 500
 lucro = faturamento - custo
 print("\nO faturamento da loja foi de : %d" % faturamento)
+
+
+
+#Uso do in: Retorna True se o valor estiver contido na sequencia
+email = "felipebtst1@gmail.com"
+print("@" in "felipebtst1@gmail.com")
