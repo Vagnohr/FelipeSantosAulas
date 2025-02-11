@@ -51,3 +51,8 @@ print(nome.title(),"\n")
 #retira os caracteres indesejados, como por exemplo espaços que não agragam valor
 nome = "  felipe bortoluzzi dos santos  "
 print(nome.strip(),"\n")
+
+
+#retona true ou false para um teste de uma string se inicia com um texto especifico
+nome = "felipe 2008"
+print(nome.startswith("ser"),"\n")
