@@ -46,3 +46,8 @@ print(nome.split("@"), "\n")
 #coloca todas as letras iniciais em maiuscula
 nome = "felipe bortoluzzi dos santos"
 print(nome.title(),"\n")
+
+
+#retira os caracteres indesejados, como por exemplo espaços que não agragam valor
+nome = "  felipe bortoluzzi dos santos  "
+print(nome.strip(),"\n")
