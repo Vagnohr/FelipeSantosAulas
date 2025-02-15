@@ -5,4 +5,4 @@ if procurar not in produtos:
     procurar = input("Insira qual produtor deseja procurar: ")
 elif procurar in produtos:
     i=produtos.index(procurar)
-    print("produto:{}".format(str(i)))
+    print("produto:"+str(i))
