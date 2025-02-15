@@ -1,8 +1,8 @@
-produtos=["tv","celular","tablet","mouse","teclado","geladeira","forno"]
-procurar = input("Insira qual produtor deseja procurar: ")
-if procurar not in produtos:
-    print("Item não está na lista")
-    procurar = input("Insira qual produtor deseja procurar: ")
-elif procurar in produtos:
-    i=produtos.index(procurar)
-    print(produtos[i])
+clientes=["Felipe","Arthur","João","Gabriel"]
+procurar = input("Insira qual cliente deseja procurar: ")
+if procurar not in clientes:
+    print("pessoa não está na lista")
+    procurar = input("Insira qual cliente deseja procurar: ")
+elif procurar in clientes:
+    i=clientes.index(procurar)
+    print(clientes[i])
