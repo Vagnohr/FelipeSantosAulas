@@ -3,3 +3,4 @@ vendas_tecnologia={"iphone":15000,"sansung galaxy":12000,"Tv Samsung":10000,"ps5
 livro=mais_vendidos["livros"]
 #print(mais_vendidos["geladeiras"])
 #print(mais_vendidos.get("geladeiras"))
+print("Fin programa")
