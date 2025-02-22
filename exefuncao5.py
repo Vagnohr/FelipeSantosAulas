@@ -8,3 +8,7 @@ def mensagem(nome_usuario, idade_usuario):
         print("Oi",nome_usuario)
     else:
         print("Olá!",nome_usuario)
+def main():
+        nome_usuario,idade_usuario=get_data()
+        mensagem(nome_usuario,idade_usuario)
+main()
